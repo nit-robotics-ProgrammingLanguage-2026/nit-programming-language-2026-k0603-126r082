@@ -15,6 +15,7 @@ int main(void)
     for (int index = 0; index < n; index++) {
         total += (long long)index + 1;
     }
+
     printf("%lld", total);
     return 0;
 }
